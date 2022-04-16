@@ -20,12 +20,22 @@ Example
 
 ![alt text](https://imgaug.readthedocs.io/en/latest/_images/simple.jpg "ingaug")
 
+After we preprocess the image how do we choose the right architecture for our task?
+
+We have helper! [AutoGluon](https://auto.gluon.ai/stable/index.html) AutoML for Text, Image, and Tabular Data
+
+With AutoGluon we can automate hyperparameter tuning, model selection/ensembling, architecture search utilize state-of-the-art techniques. model we tried such as
+
+* Resnet50
+* Efficient
+* Visiontrasnformer
+* InceptionV3
+* Swintransformer
+* ConvNet(2020)
+
+The result is ConvNet(2020) archve best accuracy but we did not stop here. We think wecan improve further and we think AutoGluon may overfit the data so we replicate and create this architecture with some modify top-layer to add something like more dense layer,dropout, batch, normalization layer. Get better accuracy!.
+
+Note that in the EDA and data pre-processing process we tried to use GAN (Generative adversarial network) to make more data but we did not make it in time.
 
 
-
-ConvNet architecture and using various pre-
-processing techniques to solve imbalance data and small training sample problem by doing
-
-image augmentation and also using AutoGluon to learn about various state of the art deep
-learning architecture for image classification from CNN to transformer(Visiontransformer,
-Swintransformer) and find best architecture for the task. Receive honorable mention prize.
+This hackathon receive honorable mention prize.
