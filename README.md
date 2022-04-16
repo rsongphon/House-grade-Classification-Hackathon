@@ -4,7 +4,7 @@ My approach for 2021 Super AI Engineer Deleveopment program. Image Processing ha
 
 ## Task 1 : House-grade-Classification
 
-Predict house grade from image by implement various CNN and Transformer architecture.
+Predict house grade from image into seperate class by implement various CNN and Transformer architecture.
 
 First let's talk about problem.
 
